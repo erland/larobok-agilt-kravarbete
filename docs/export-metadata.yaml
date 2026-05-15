@@ -1,0 +1,53 @@
+title: Från XLPM till agilt kravarbete
+subtitle: Hur funktionella krav fångas, analyseras och dokumenteras när arbetet går
+  från fas till kontinuerlig utveckling
+author: Erland Lindmark
+language: sv
+difficulty: experienced
+audience: Erfarna kravanalytiker och verksamhetsanalytiker i statlig myndighet
+book_type: textbook
+edition: '1'
+version: '0.12'
+date: '2026-05-15'
+rights: All rights reserved
+publisher: ''
+cover_image: "assets/cover/cover.png"
+identifier: urn:uuid:1d5b06e8-ed8e-400a-b6a9-d56478640421
+creator_role: aut
+subject: Agilt kravarbete, funktionella krav, kravanalys, statlig myndighet
+description: En praktisk svensk lärobok om hur funktionellt kravarbete förändras när
+  organisationer går från XLPM- eller fasbaserat arbetssätt till mer agil, iterativ
+  och teamnära utveckling.
+project_slug: fran-xlpm-till-agilt-kravarbete
+zip_naming:
+  initial: fran-xlpm-till-agilt-kravarbete-projekt.zip
+  chapter_update: fran-xlpm-till-agilt-kravarbete-projekt-kapitel-NN.zip
+chapters:
+- chapters/00-inledning.md
+- chapters/01-nar-xlpm-inte-langre-racker-som-kravlogik.md
+- chapters/02-kravanalytikerns-ansvar-forandras-men-forsvinner-inte.md
+- chapters/03-fran-kravspecifikation-till-levande-kravunderlag.md
+- chapters/04-nar-behovsbilden-ar-osaker.md
+- chapters/05-fran-kravinsamling-till-kravdialog.md
+- chapters/06-nar-funktionella-krav-behover-bli-sma-nog-att-utvecklas.md
+- chapters/07-acceptanskriterier-testbarhet-och-gemensam-definition-av-klart.md
+- chapters/08-nar-regler-undantag-och-verksamhetslogik-styr-kraven.md
+- chapters/09-sparbarhet-utan-att-skapa-dokumentationsborda.md
+- chapters/10-kravarbete-nara-produktagare-team-och-arkitekt.md
+- chapters/11-nar-forandringar-kommer-sent-och-anda-ar-rimliga.md
+- chapters/12-den-agila-kravanalytikerns-verktygslada.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  docx:
+    enabled: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true
